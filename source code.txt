@@ -1,0 +1,21 @@
+print("Введите привет или пока.")
+a = input()
+if a == "привет":
+    print("привет :)")
+elif a=="пока":
+    print("пока :(")
+else: 
+    print("Не известная команда!")
+print("Как у тебя дела?")
+print("Введите хорошо или плохо.")
+b = input()
+if b == "плохо":
+    print("Почему?")
+    c = input()
+    print("Понятно :(")
+elif b == "хорошо":
+    print("У меня тоже :)")
+else:
+    print("Не известная команда!")
+print("На этом всё! если хотите увидеть исходный код программы тогда перейдите по ссылке - https://github.com/Veust666/Source-code/new/main .")
+Video review - https://youtu.be/XISHiejhm_M
